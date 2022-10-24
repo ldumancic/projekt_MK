@@ -1,0 +1,153 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.center {
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top {
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -125%);
+}
+
+.btn-light {
+  border-color: black;
+  height: 40px;
+  width: 150px;
+  font-size: medium;
+  border-radius: 10px;
+}
+
+.naslov {
+  margin-left: 55px;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.red {
+  background-color: lightgray;
+}
+
+th {
+  text-align: center;
+  font-weight: normal;
+}
+
+td {
+  text-align: center;
+}
+
+.btnStopTimer {
+  display: inline-block;
+  background: white;
+  border-radius: 15px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  height: 90px;
+  width: 225px;
+}
+
+
+.btnStop {
+  display: inline-block;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  height: 40px;
+  width: 150px;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  height: 40px;
+  width: 150px;
+}
+
+.btn:hover{
+  background: lightgray;
+}
+
+.tableDiv {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.headingModalDiv {
+  border-style: ridge;
+  border-width: 0px 0px 2px 0px;
+  text-align: center;
+}
+.nameProjectModalDiv {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.nameProjectInput {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border-width: 1px;
+  text-align: center;
+}
+
+.btnModalDiv {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.table-striped {
+  margin-top: 30px;
+}
+
+.btnCloseModal {
+  display: inline-block;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  height: 40px;
+  width: 40px;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(540%, -405%);
+  
+}
+
+
+

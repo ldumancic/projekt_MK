@@ -1,0 +1,23 @@
+<!--<div class="center">
+    <label> Stop Timer </label>
+    <label> Project name * </label>
+    <input class="form-control" />
+    <button class="btn btn-light">
+        Stop timer
+    </button>
+</div>-->
+
+<div>
+    <div class="headingModalDiv">
+        <label>Stop Timer</label>
+        <button class="btnCloseModal" (click)="closeDialog()">X</button>
+    </div>
+    <div class="nameProjectModalDiv">
+        <label>Project name *</label>
+        <input matInput [(ngModel)]="projectName" class="nameProjectInput"/>
+    </div>
+    <div class="btnModalDiv">
+        <button class="btnStopTimer" (click)="stopTimer()">Stop timer</button>
+    </div>
+</div>
+

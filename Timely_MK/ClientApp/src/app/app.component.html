@@ -1,0 +1,40 @@
+<div>
+  <h1 class="naslov">Timely</h1>
+  <div *ngIf="start; else stop" class="center">
+    <button class="btn" (click)="Startaj()">
+      Start
+    </button>
+  </div>
+</div>
+
+<ng-template #stop>
+  <div class="tableDiv">
+    <button class="btnStop" (click)="openDialog()">Stop</button>
+    <table class="table table-striped">
+      <thead>
+        <tr class="red">
+          <th>Project</th>
+          <th>Start</th>
+          <th>Stop</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let p of projekti">
+          <td>{{p.projektIme}}</td>
+          <td>{{startVrijeme}}</td>
+          <td>{{p.projektStop}}</td>
+          <td>{{p.projektTrajanje}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</ng-template>
+
+
+
+
+
+
+
+
